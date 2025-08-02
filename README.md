@@ -1,4 +1,4 @@
-![banner](./recursos/imagenes/banner.jpg)
+![banner](./recursos/imagens/banner.jpg)
 # Primeiros passos em Sui
 
 ## Introdução

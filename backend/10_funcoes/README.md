@@ -27,13 +27,13 @@ Running Move unit tests
 [debug] 1
 [debug] 2
 [ PASS    ] suiz3::funciones1::prueba
-[debug] "Hola desde funciones1!"
+[debug] "Ola de funcoes1!"
 [debug] "Sui"
 [debug] 0
 [debug] 100
-[debug] "Hola desde funciones1!"
-[debug] "Hola desde funciones1!"
-[debug] "Hola desde funciones1!"
+[debug] "Ola de funcoes1!"
+[debug] "Ola de funcoes1!"
+[debug] "Ola de funcoes1!"
 [ PASS    ] suiz3::funciones3::prueba
 [debug] 200
 [ PASS    ] suiz3::funciones2::prueba

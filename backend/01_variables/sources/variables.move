@@ -7,12 +7,12 @@ module suiz3::variables {
     // A primeira letra de uma constante sempre tem que ser uma letra maiúscula de A a Z.
     // Depois da primeira letra, pode conter: letras de a a z, ou de A a Z, assim como dígitos de 0 a 9, ou sublinhado _.
     // O código em Move não aceita acentos em nenhum lugar, nem mesmo em comentários.
-    const SAUDACAO: vector<u8> = b"Hola, Mundo!";
+    const SAUDACAO: vector<u8> = b"Olá, Mundo!";
     const VALOR_VERDADEIRO: bool = true;
 
     fun pratica() {
         // Fazendo uso de constantes:
-        print(&utf8(SAUDACAO)); // Resultado: [debug] "Hola, Mundo!"
+        print(&utf8(SAUDACAO)); // Resultado: [debug] "Olá, Mundo!"
         let copia_valor_verdadeiro = VALOR_VERDADEIRO; // Cópia do valor verdadeiro para evitar o warning por ownership.
         print(&copia_valor_verdadeiro); // Resultado: [debug] true
 
@@ -69,6 +69,6 @@ module suiz3::variables {
 
     #[test]
     fun teste() {
-        practica();
+        pratica();
     }
 }

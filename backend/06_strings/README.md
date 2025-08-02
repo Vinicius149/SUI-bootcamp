@@ -30,12 +30,12 @@ Running Move unit tests
 [debug] 0x48656c6c6f20576f726c6421
 [debug] "Hello World!"
 [debug] true
-[debug] "Hola"
-[debug] "HolaAdios"
-[debug] "HolaAdiosHello World!"
-[debug] "HolaINSERTAMEAdiosHello World!"
-[debug] "HolaINSERTAMEAdiosHello World!
-Esto se imprimira en una nueva linea."
+[debug] "Ola"
+[debug] "OlaAdeus"
+[debug] "OlaAdeusHello World!"
+[debug] "OlaINSERIR-MEAdeusHello World!"
+[debug] "OlaINSERIR-MEAdeusHello World!
+Isto sera impresso em uma nova linha."
 [ PASS    ] suiz3::cadenas::prueba
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```

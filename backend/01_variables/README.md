@@ -30,7 +30,7 @@ INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING Variables
 Running Move unit tests
-[debug] "Hola, Mundo!"
+[debug] "Olá, Mundo!"
 [debug] true
 [debug] 1
 [debug] 2

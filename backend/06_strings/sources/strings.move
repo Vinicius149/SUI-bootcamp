@@ -32,13 +32,13 @@ module suiz3::cadenas {
         append(&mut string_utf8, hex_para_utf8); // Lembre-se que você pode usar tanto bytes quanto hex.
         print(&string_utf8); // Resultado: [debug] "OlaAdeusHello World!"
 
-        let intruso = utf8(b"INSIRA-ME");
+        let intruso = utf8(b"INSERIR-ME");
         insert(&mut string_utf8, 3, intruso); // Inserindo uma string.
-        print(&string_utf8); // Resultado: [debug] "OlaINSIRA-MEAdeusHello World!"
+        print(&string_utf8); // Resultado: [debug] "OlaINSERIR-MEAdeusHello World!"
 
         let escape = utf8(b"\nIsto sera impresso em uma nova linha.");
         append(&mut string_utf8, escape);
-        print(&string_utf8); // Resultado: [debug] "OlaINSIRA-MEAdeusHello World!
+        print(&string_utf8); // Resultado: [debug] "OlaINSERIR-MEAdeusHello World!
                             //            Isto sera impresso em uma nova linha."
     }
 
