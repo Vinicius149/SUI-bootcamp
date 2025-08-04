@@ -41,7 +41,7 @@ Running Move unit tests
 [debug] 10
 [debug] 15
 [debug] false
-[ PASS    ] suiz3::variables::prueba
+[ PASS    ] suiz3::variables::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

@@ -35,7 +35,7 @@ Running Move unit tests
 [debug] @0x0
 [debug] "0000000000000000000000000000000000000000000000000000000000000000"
 [debug] @0xbebe
-[ PASS    ] 0x5a6f6e612054726573::address::prueba
+[ PASS    ] 0x5a6f6e612054726573::address::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

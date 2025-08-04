@@ -1,4 +1,4 @@
-module suiz3::cadenas {
+module suiz3::strings {
     use std::debug::print;
     use std::string::{utf8, is_empty, append, append_utf8, insert};
 

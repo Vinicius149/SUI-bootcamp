@@ -25,7 +25,7 @@ INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING Habilidades
 Running Move unit tests
-[ PASS    ] suiz3::habilidades::prueba
+[ PASS    ] suiz3::habilidades::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

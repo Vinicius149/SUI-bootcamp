@@ -8,7 +8,7 @@ Você pode encontrar mais informações sobre strings e seus métodos na [docume
 
 > :information_source: Lembre-se de que você deve navegar no seu terminal para este diretório:
 >```sh
->cd backend/06_cadenas
+>cd backend/06_strings
 >```
 
 Acesse seu terminal e execute o seguinte comando:
@@ -23,7 +23,7 @@ INCLUDING DEPENDENCY Bridge
 INCLUDING DEPENDENCY SuiSystem
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING Cadenas
+BUILDING Strings
 Running Move unit tests
 [debug] 0x48656c6c6f20576f726c6421
 [debug] "Hello World!"
@@ -36,7 +36,7 @@ Running Move unit tests
 [debug] "OlaINSERIR-MEAdeusHello World!"
 [debug] "OlaINSERIR-MEAdeusHello World!
 Isto sera impresso em uma nova linha."
-[ PASS    ] suiz3::cadenas::prueba
+[ PASS    ] suiz3::strings::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

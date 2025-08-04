@@ -1,4 +1,4 @@
-module suiz3::cadenas {
+module suiz3::structs {
     use std::debug::print;
     use std::string::{String,utf8};
     use std::option::{Option, some};
@@ -21,7 +21,7 @@ module suiz3::cadenas {
         let autor = Autor { nome: utf8(b"Paulo Coelho") };
         print(&autor); // Note que usamos debug_string da lição anterior para imprimir o struct completo.
         // Resultado:
-        // [debug] "0x5a6f6e612054726573::cadenas::Autor {
+        // [debug] "0x5a6f6e612054726573::structs::Autor {
         //   nome: \"Paulo Coelho\"
         // }"
 
@@ -34,9 +34,9 @@ module suiz3::cadenas {
         }; // Temos que fechar o bloco aqui.
 
         print(&livro); // Note a impressão do campo Autor.
-        //[debug] "0x5a6f6e612054726573::cadenas::Livro {
+        //[debug] "0x5a6f6e612054726573::structs::Livro {
         //  titulo: \"O Alquimista\",
-        //  autor: 0x5a6f6e612054726573::cadenas::Autor {
+        //  autor: 0x5a6f6e612054726573::structs::Autor {
         //    nome: \"Paulo Coelho\"
         //  },
         //  publicado: 1988,
@@ -88,7 +88,7 @@ module suiz3::cadenas {
         print(modificavel); // Resultado: [debug] "Charles Dickens"
         print(&autor); // Estamos fazendo uma referência ao valor diretamente, portanto:
         // Resultado:
-        // [debug] "0x5a6f6e612054726573::cadenas::Autor {
+        // [debug] "0x5a6f6e612054726573::structs::Autor {
         //   nome: \"Charles Dickens\"
         // }"
 

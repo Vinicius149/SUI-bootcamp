@@ -21,13 +21,13 @@ INCLUDING DEPENDENCY Bridge
 INCLUDING DEPENDENCY SuiSystem
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING Condicionales
+BUILDING Condicionais
 Running Move unit tests
-[debug] "a es mayor a 0"
-[debug] "a no es mayor a 20"
+[debug] "a e maior que 0"
+[debug] "a nao e maior que 20"
 [debug] 10
-[debug] "Usuario tiene acceso."
-[ PASS    ] suiz3::condicionales::prueba
+[debug] "Usuario tem acesso."
+[ PASS    ] suiz3::condicionais::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

@@ -31,7 +31,7 @@ Running Move unit tests
 [debug] false
 [debug] true
 [debug] false
-[ PASS    ] suiz3::tipos_primitivos::prueba
+[ PASS    ] suiz3::tipos_primitivos::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

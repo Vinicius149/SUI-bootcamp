@@ -30,7 +30,7 @@ Running Move unit tests
 [debug] 1
 [debug] 20
 [debug] 20
-[ PASS    ] suiz3::referencias::prueba
+[ PASS    ] suiz3::referencias::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

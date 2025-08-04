@@ -12,7 +12,7 @@ Você pode encontrar mais informações sobre vetores e seus métodos na [docume
 
 > :information_source: Lembre-se de que você deve navegar no seu terminal para este diretório:
 >```sh
->cd backend/05_vectores
+>cd backend/05_vetores
 >```
 
 Acesse seu terminal e execute o seguinte comando:
@@ -27,13 +27,13 @@ INCLUDING DEPENDENCY Bridge
 INCLUDING DEPENDENCY SuiSystem
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING Vectores
+BUILDING Vetores
 Running Move unit tests
 [debug] 1
 [debug] 3
 [debug] 55
 [debug] 40
-[ PASS    ] suiz3::vectores::prueba
+[ PASS    ] suiz3::vetores::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

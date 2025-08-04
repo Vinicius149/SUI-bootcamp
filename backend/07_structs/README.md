@@ -25,22 +25,22 @@ INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING Structs
 Running Move unit tests
-[debug] 0x5a6f6e612054726573::cadenas::Autor {
-  nombre: "Paulo Cohelo"
+[debug] 0x5a6f6e612054726573::structs::Autor {
+  nome: "Paulo Coelho"
 }
-[debug] 0x5a6f6e612054726573::cadenas::Libro {
-  titulo: "El Alquimista",
-  autor: 0x5a6f6e612054726573::cadenas::Autor {
-    nombre: "Paulo Cohelo"
+[debug] 0x5a6f6e612054726573::structs::Livro {
+  titulo: "O Alquimista",
+  autor: 0x5a6f6e612054726573::structs::Autor {
+    nome: "Paulo Coelho"
   },
   publicado: 1988,
-  tiene_audiolibro: true,
-  edicion: 0x1::option::Option<u16> {
+  tem_audiolivro: true,
+  edicao: 0x1::option::Option<u16> {
     vec: [ 1 ]
   }
 }
-[debug] "El Alquimista"
-[debug] "Paulo Cohelo"
+[debug] "O Alquimista"
+[debug] "Paulo Coelho"
 [debug] 1988
 [debug] true
 [debug] "J. K. Rowling"
@@ -50,10 +50,10 @@ Running Move unit tests
 [debug] "Edgar Allan Poe"
 [debug] "George Orwell"
 [debug] "Charles Dickens"
-[debug] 0x5a6f6e612054726573::cadenas::Autor {
-  nombre: "Charles Dickens"
+[debug] 0x5a6f6e612054726573::structs::Autor {
+  nome: "Charles Dickens"
 }
-[ PASS    ] suiz3::cadenas::prueba
+[ PASS    ] suiz3::structs::teste
 Test result: OK. Total tests: 1; passed: 1; failed: 0
 ```
 

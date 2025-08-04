@@ -6,7 +6,7 @@ As funções são os blocos de construção dos programas Move. Elas são chamad
 
 > :information_source: Lembre-se de que você deve navegar no seu terminal para este diretório:
 >```sh
->cd backend/10_funciones
+>cd backend/10_funcoes
 >```
 
 Acesse seu terminal e execute o seguinte comando:
@@ -21,12 +21,12 @@ INCLUDING DEPENDENCY Bridge
 INCLUDING DEPENDENCY SuiSystem
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING Funciones
+BUILDING Funcoes
 Running Move unit tests
 [debug] false
 [debug] 1
 [debug] 2
-[ PASS    ] suiz3::funciones1::prueba
+[ PASS    ] suiz3::funcoes1::teste
 [debug] "Ola de funcoes1!"
 [debug] "Sui"
 [debug] 0
@@ -34,10 +34,10 @@ Running Move unit tests
 [debug] "Ola de funcoes1!"
 [debug] "Ola de funcoes1!"
 [debug] "Ola de funcoes1!"
-[ PASS    ] suiz3::funciones3::prueba
+[ PASS    ] suiz3::funcoes3::teste
 [debug] 200
-[ PASS    ] suiz3::funciones2::prueba
-[ PASS    ] suiz3::funciones4::prueba
+[ PASS    ] suiz3::funcoes2::teste
+[ PASS    ] suiz3::funcoes4::teste
 Test result: OK. Total tests: 4; passed: 4; failed: 0
 ```
 
